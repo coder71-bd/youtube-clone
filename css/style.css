@@ -101,3 +101,44 @@
     margin-right: 0;
   }
 }
+
+/* main */
+main {
+  background-color: #181818;
+  color: #fffaf5;
+}
+
+.main__video {
+  padding: 24px;
+}
+.video--header__info {
+  justify-content: space-between;
+}
+.info__title {
+  color: #aaa;
+}
+#dot::before {
+  content: '•';
+}
+
+.like-dislike {
+  border-bottom: 2px solid #fff;
+}
+.hide {
+  display: inline;
+}
+
+.info__body span,
+.info__body i {
+  padding-right: 6px;
+}
+
+.space {
+  padding: 6px;
+}
+
+@media screen and (max-width: 566px) {
+  .hide {
+    display: none;
+  }
+}
